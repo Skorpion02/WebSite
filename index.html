@@ -14,54 +14,69 @@
 </head>
 
 <body>
+        <div class="menu-btn">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
 
-  <div class="menu-btn">
-    <i class="fas fa-bars fa-2x"></i>
-  </div>
+        <div class="container">
+            <!-- Navigation -->
+            <nav class="nav-main">
+            <!-- Brand -->
+            <img src="img/brand.png" alt="TechNews Logo" class="nav-brand">
+            <!-- Left Nav -->
+            <ul class="nav-menu">
+                <li>
+                <a href="https://www.w3schools.com/whatis/">Web Development</a>
+                </li>
+                <li>
+                <a href="#">Blockchain</a>
+                </li>
+                <li>
+                <a href="#">Machine Learning</a>
+                </li>
+                <li>
+                <a href="#">Artificial Intelligence</a>
+                </li>
+                <li>
+                <a href="#">Quantum Computing</a>
+                </li>
+                <li>
+                <a href="#">Startup</a>
+                </li>
+                <li>
+                <a href="#">Cryptocurrencies</a>
+                </li>
+                <li>
+                <a href="#">More</a>
+                </li>
+            </ul>
 
-  <div class="container">
-    <!-- Navigation -->
-    <nav class="nav-main">
-      <!-- Brand -->
-      <img src="img/brand.png" alt="TechNews Logo" class="nav-brand">
-      <!-- Left Nav -->
-      <ul class="nav-menu">
-        <li>
-          <a href="#">Web Development</a>
-        </li>
-        <li>
-          <a href="#">Blockchain</a>
-        </li>
-        <li>
-          <a href="#">Machine Learning</a>
-        </li>
-        <li>
-          <a href="#">Artificial Intelligence</a>
-        </li>
-        <li>
-          <a href="#">Quantum Computing</a>
-        </li>
-        <li>
-          <a href="#">Startup</a>
-        </li>
-        <li>
-          <a href="#">Cryptocurrencies</a>
-        </li>
-        <li>
-          <a href="#">More</a>
-        </li>
-      </ul>
+            <!-- Right Nav -->
+            <ul class="nav-menu-right">
+                <li>
+                <a href="#">
+                    <i class="fas fa-search" id="icon-search"></i>
+                </a>
+                </li>
+            </ul>
+            </nav>
+            <hr>
 
-      <!-- Right Nav -->
-      <ul class="nav-menu-right">
-        <li>
-          <a href="#">
-            <i class="fas fa-search"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <hr>
+            <div id="ctn-bars-search">
+                <input type="text" id="inputSearch" placeholder="¿What do you want?">
+            </div>
+        
+            <ul id="box-search">
+                
+                    <li><a href="https://www.w3schools.com/whatis/"><i class="fas fa-search"></i>Web Development</a></li>                    <li><a href="#"><i class="fas fa-search"></i>Blockchain</a></li>
+                    <li><a href="#"><i class="fas fa-search"></i>Machine Learning</a></li>
+                    <li><a href="#"><i class="fas fa-search"></i>Artificial Intelligence</a></li>
+                    <li><a href="#"><i class="fas fa-search"></i>Quantum Computing</a></li>
+                    <li><a href="#"><i class="fas fa-search"></i>Cryptocurrencies</a></li>
+                    <li><a href="#"><i class="fas fa-search"></i>More</a></li>
+            </ul>
+        
+            <div id="cover-ctn-search"></div>
 
     <!-- SHOWCASE -->
     <header class="showcase">
@@ -299,7 +314,13 @@
 
   <!-- Scroll Reveal -->
   <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--CUSTOM JS-->
   <script src="main.js"></script>
+
+  <!-- BUSCADOR -->
+  <script src="search.js"></script>
+
 </body>
 
 </html>
